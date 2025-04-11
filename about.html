@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | SPR Global</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            color: #fff;
+            background-color: #000;
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 5%;
+            background: #111;
+        }
+
+        .navbar img {
+            width: 140px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .nav-links .active {
+            color: #f1c40f;
+        }
+
+        .btn {
+            background: #f1c40f;
+            color: #000;
+            padding: 8px 20px;
+            border: none;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        /* Hero Section */
+        .hero-about {
+            background: url('images/about-banner.jpg') no-repeat center center/cover;
+            height: 50vh;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero-about::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.6);
+            top: 0;
+            left: 0;
+        }
+
+        .hero-about h1 {
+            position: relative;
+            font-size: 50px;
+            color: #fff;
+            z-index: 1;
+        }
+
+        /* Vision & Mission */
+        .vision-mission {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px 10%;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .vision, .mission {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        .vision h2, .mission h2 {
+            color: #f1c40f;
+            margin-bottom: 10px;
+        }
+
+        /* Our Story */
+        .our-story {
+            display: flex;
+            align-items: center;
+            padding: 50px 10%;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        .story-img img {
+            width: 400px;
+            border-radius: 10px;
+        }
+
+        .story-content h2 {
+            color: #f1c40f;
+            margin-bottom: 10px;
+        }
+
+        /* What We Offer */
+        .offer {
+            padding: 50px 10%;
+            text-align: center;
+        }
+
+        .offer h2 {
+            color: #f1c40f;
+            margin-bottom: 30px;
+        }
+
+        .offer ul {
+            list-style: none;
+        }
+
+        .offer li {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .offer img {
+            width: 20px;
+        }
+
+        /* Founder's Message */
+        .founder-message {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px 10%;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .founder-text h2 {
+            color: #f1c40f;
+            margin-bottom: 10px;
+        }
+
+        .founder-img img {
+            width: 300px;
+            border-radius: 10px;
+        }
+
+        /* Footer */
+        footer {
+            padding: 20px 0;
+            background: #111;
+            text-align: center;
+            color: #aaa;
+        }
+
+        @media (max-width: 768px) {
+            .our-story, .founder-message {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .story-img img, .founder-img img {
+                width: 100%;
+            }
+
+            .navbar {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .nav-links {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <img src="images/logo.png" alt="SPR Global">
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About Us</a></li>
+            <li><a href="brands.html">Brands</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button class="btn">Enquire Now</button>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero-about">
+        <h1>ABOUT US</h1>
+    </section>
+
+    <!-- Vision & Mission -->
+    <section class="vision-mission">
+        <div class="vision">
+            <h2>VISION</h2>
+            <p>Empowering businesses with innovative ideas and customer-driven solutions.</p>
+        </div>
+        <div class="mission">
+            <h2>MISSION</h2>
+            <p>Delivering exceptional services and building long-term relationships with our clients.</p>
+        </div>
+    </section>
+
+    <!-- Our Story -->
+    <section class="our-story">
+        <div class="story-img">
+            <img src="images/our-story.jpg" alt="Our Story">
+        </div>
+        <div class="story-content">
+            <h2>OUR STORY</h2>
+            <p>SPR Global started with a vision to create innovative brands and redefine customer experience. With years of expertise, we have expanded across multiple domains offering the best in class services.</p>
+        </div>
+    </section>
+
+    <!-- What We Offer -->
+    <section class="offer">
+        <h2>WHAT WE OFFER</h2>
+        <ul>
+            <li><img src="images/icon.png" alt=""> Multi-brand franchise opportunities</li>
+            <li><img src="images/icon.png" alt=""> Strong customer-centric approach</li>
+            <li><img src="images/icon.png" alt=""> Innovative marketing strategies</li>
+            <li><img src="images/icon.png" alt=""> Business growth and expansion support</li>
+        </ul>
+    </section>
+
+    <!-- Founder's Message -->
+    <section class="founder-message">
+        <div class="founder-text">
+            <h2>FOUNDER'S MESSAGE</h2>
+            <p>“At SPR Global, we believe in empowering entrepreneurs and helping them achieve their business dreams. Our mission is to offer opportunities that are sustainable, scalable, and innovative.”</p>
+        </div>
+        <div class="founder-img">
+            <img src="images/founder.jpg" alt="Founder">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 SPR Global. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

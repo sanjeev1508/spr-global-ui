@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FunzXtreme</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Montserrat', sans-serif;
+    }
+    body {
+      background-color: #fff;
+      color: #000;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    header {
+      background: #000;
+      color: #fff;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      font-size: 24px;
+    }
+    .hero {
+      background: #fff;
+      text-align: center;
+      padding: 30px;
+    }
+    .hero img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    .hero h2 {
+      font-size: 30px;
+      font-weight: 700;
+      margin-top: 20px;
+    }
+    .hero p {
+      font-size: 18px;
+      margin-top: 10px;
+      color: #444;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      padding: 20px;
+    }
+    .gallery img {
+      width: 200px;
+      height: auto;
+      border-radius: 10px;
+    }
+    .section-dark {
+      background-color: #111;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .section-dark h3 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    .section-dark p {
+      font-size: 16px;
+      color: #ccc;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    .offerings {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .offerings img {
+      width: 250px;
+      border-radius: 10px;
+    }
+    .banner {
+      background: #ffcd00;
+      text-align: center;
+      padding: 10px;
+      font-weight: 600;
+      font-size: 18px;
+    }
+    .why-choose {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .why-choose h3 {
+      font-size: 26px;
+      margin-bottom: 30px;
+    }
+    .why-choose .features {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+    .features div {
+      max-width: 250px;
+    }
+    .franchise-section {
+      background: #f9f9f9;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .franchise-section h4 {
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    .form-section {
+      padding: 30px;
+      background: #fff;
+    }
+    .form-section form {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .form-section input, .form-section textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .form-section button {
+      padding: 10px 20px;
+      background: #000;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      border-radius: 5px;
+    }
+    footer {
+      background: #000;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>FunzXtreme</h1>
+    <nav>Home | About | Offerings | Contact</nav>
+  </header>
+
+  <section class="hero">
+    <img src="hero-placeholder.jpg" alt="FunzXtreme Play Area">
+    <h2>FUNZXTREME</h2>
+    <p>India's Largest Premium Indoor Play Park for Kids and Family</p>
+  </section>
+
+  <section class="gallery">
+    <img src="img1.jpg" alt="">
+    <img src="img2.jpg" alt="">
+    <img src="img3.jpg" alt="">
+    <img src="img4.jpg" alt="">
+  </section>
+
+  <section class="section-dark">
+    <h3>ABOUT THE BRAND</h3>
+    <p>Funzxtreme has created an exclusive kids play world with interactive games, adventurous activities, trampoline zones and more. A complete edutainment zone curated for safety, fun and learning!</p>
+  </section>
+
+  <section class="section-dark">
+    <h3>SIGNATURE OFFERINGS</h3>
+    <div class="offerings">
+      <img src="offering1.jpg" alt="">
+      <img src="offering2.jpg" alt="">
+      <img src="offering3.jpg" alt="">
+    </div>
+  </section>
+
+  <div class="banner">BUSINESS OPPORTUNITIES</div>
+
+  <section class="why-choose">
+    <h3>WHY CHOOSE US</h3>
+    <div class="features">
+      <div>
+        <h4>Profitable Model</h4>
+        <p>High returns on investment with consistent footfalls and engagement.</p>
+      </div>
+      <div>
+        <h4>Turnkey Solution</h4>
+        <p>End-to-end setup and operations support provided.</p>
+      </div>
+      <div>
+        <h4>Premium Experience</h4>
+        <p>Top-notch interiors, world-class games, and exciting party zones.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="franchise-section">
+    <h4>Join The FunzXtreme Franchise Family</h4>
+    <p>Exclusive franchise opportunities for those passionate about children's edutainment and experiences.</p>
+  </section>
+
+  <section class="form-section">
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="text" placeholder="Contact Number" required>
+      <textarea placeholder="Message" rows="4"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 FunzXtreme. All rights reserved.
+  </footer>
+</body>
+</html>

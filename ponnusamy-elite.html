@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Ponnusamy Elite</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000;
+    color: #fff;
+    padding: 10px 50px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.title {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.title h1 {
+    font-size: 36px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 30px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    background: #111;
+    color: #fff;
+}
+
+.about-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.about-images {
+    flex: 1;
+    display: flex;
+    gap: 10px;
+}
+
+.about-images img {
+    width: 48%;
+    border-radius: 5px;
+}
+
+.offerings {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.offer-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.offer-items img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.choose {
+    background: #f9f9f9;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.choose-items {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.choose-items div {
+    background: #000;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+
+.franchise {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.franchise form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+
+.franchise input, 
+.franchise textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.franchise button {
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    border: none;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">SPR GLOBAL</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#">Brands</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="images/ponnusamy-hero.jpg" alt="Ponnusamy Elite">
+    </section>
+
+    <!-- Brand Title -->
+    <section class="title">
+        <h1>THE PONNUSAMY ELITE</h1>
+        <p>Signature Chettinad Flavours</p>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <img src="images/g1.jpg">
+        <img src="images/g2.jpg">
+        <img src="images/g3.jpg">
+        <img src="images/g4.jpg">
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="about-text">
+            <h2>ABOUT THE BRAND</h2>
+            <p>The Ponnusamy Elite blends heritage with taste delivering the authentic chettinad experience.</p>
+        </div>
+        <div class="about-images">
+            <img src="images/about1.jpg">
+            <img src="images/about2.jpg">
+        </div>
+    </section>
+
+    <!-- Offerings Section -->
+    <section class="offerings">
+        <h2>SIGNATURE OFFERINGS</h2>
+        <div class="offer-items">
+            <img src="images/o1.jpg">
+            <img src="images/o2.jpg">
+            <img src="images/o3.jpg">
+            <img src="images/o4.jpg">
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="choose">
+        <h2>WHY CHOOSE US</h2>
+        <div class="choose-items">
+            <div>Authentic Chettinad Recipes</div>
+            <div>Heritage Dining Experience</div>
+            <div>Premium Quality Ingredients</div>
+        </div>
+    </section>
+
+    <!-- Franchise Form -->
+    <section class="franchise">
+        <h2>Bring Chettinad Heritage To Your City!</h2>
+        <form>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <input type="tel" placeholder="Phone">
+            <textarea placeholder="Message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 SPR Global. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

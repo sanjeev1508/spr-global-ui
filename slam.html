@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slam Fitness Studio</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: #fff;
+    color: #333;
+    line-height: 1.6;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+}
+
+.brand-intro {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.brand-intro h1 {
+    font-size: 40px;
+    color: #000;
+}
+
+.brand-intro p {
+    font-size: 18px;
+    color: #777;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.about-brand, .offerings, .choose-us, .franchise {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about-brand h2, .offerings h2, .choose-us h2, .franchise h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.offerings .offering-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+}
+
+.offering-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.offering-card p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.choose-us .reasons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.reasons div {
+    max-width: 250px;
+}
+
+.franchise form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.franchise input, .franchise textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.franchise button {
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <img src="assets/slam-banner.jpg" alt="Slam Fitness Banner" class="hero-image">
+    </header>
+
+    <!-- Brand Name & Tagline -->
+    <section class="brand-intro">
+        <h1>SLAM FITNESS STUDIO</h1>
+        <p>Premier Fitness Studio</p>
+    </section>
+
+    <!-- Gallery -->
+    <section class="gallery">
+        <img src="assets/slam1.jpg" alt="">
+        <img src="assets/slam2.jpg" alt="">
+        <img src="assets/slam3.jpg" alt="">
+        <img src="assets/slam4.jpg" alt="">
+        <img src="assets/slam5.jpg" alt="">
+    </section>
+
+    <!-- About -->
+    <section class="about-brand">
+        <h2>ABOUT THE BRAND</h2>
+        <p>Slam Fitness Studio is a premier fitness brand delivering state-of-the-art facilities and expert training across locations. A lifestyle transformation destination for all fitness enthusiasts.</p>
+    </section>
+
+    <!-- Signature Offerings -->
+    <section class="offerings">
+        <h2>SIGNATURE OFFERINGS</h2>
+        <div class="offering-grid">
+            <div class="offering-card"><img src="assets/of1.jpg" alt=""><p>Personal Training</p></div>
+            <div class="offering-card"><img src="assets/of2.jpg" alt=""><p>Group Classes</p></div>
+            <div class="offering-card"><img src="assets/of3.jpg" alt=""><p>Cardio & Strength</p></div>
+            <div class="offering-card"><img src="assets/of4.jpg" alt=""><p>Diet Consultation</p></div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="choose-us">
+        <h2>WHY CHOOSE US</h2>
+        <div class="reasons">
+            <div>
+                <h3>Expert Trainers</h3>
+                <p>Certified & Professional</p>
+            </div>
+            <div>
+                <h3>Modern Equipment</h3>
+                <p>World-class Facilities</p>
+            </div>
+            <div>
+                <h3>Customized Plans</h3>
+                <p>Tailored For You</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Franchise -->
+    <section class="franchise">
+        <h2>Own A Slam Fitness Studio!</h2>
+        <p>Partner with us and be part of India's leading fitness chain.</p>
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Email">
+            <input type="tel" placeholder="Phone">
+            <textarea placeholder="Message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Slam Fitness Studio | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sulthan's Biryani</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #fff;
+      color: #000;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: #000;
+      color: #fff;
+    }
+
+    header img {
+      height: 50px;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 2rem;
+      background-color: #fff;
+    }
+
+    .hero img {
+      width: 80%;
+      border-radius: 10px;
+    }
+
+    .hero h1 {
+      font-size: 2rem;
+      margin: 1rem 0;
+    }
+
+    .gallery {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      padding: 2rem;
+      background: #f8f8f8;
+    }
+
+    .gallery img {
+      width: 150px;
+      border-radius: 10px;
+    }
+
+    .about {
+      padding: 2rem;
+      background-color: #111;
+      color: #fff;
+    }
+
+    .about h2,
+    .offerings h2 {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    .about p {
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .about img {
+      display: block;
+      width: 80%;
+      margin: 2rem auto;
+      border-radius: 10px;
+    }
+
+    .offerings {
+      background: #000;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .offerings .cards {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 1rem;
+    }
+
+    .offerings .card {
+      background: #222;
+      padding: 1rem;
+      border-radius: 10px;
+    }
+
+    .offerings img {
+      width: 150px;
+      border-radius: 10px;
+    }
+
+    .strip {
+      background: #f9b233;
+      color: #000;
+      text-align: center;
+      padding: 0.5rem;
+      font-weight: bold;
+    }
+
+    .why-choose {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .why-choose h2 {
+      margin-bottom: 1rem;
+    }
+
+    .reasons {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .reason {
+      max-width: 200px;
+      background: #f0f0f0;
+      padding: 1rem;
+      border-radius: 10px;
+    }
+
+    .franchise {
+      padding: 2rem;
+      background: #fff;
+      text-align: center;
+    }
+
+    .contact-form {
+      padding: 2rem;
+      background: #f8f8f8;
+      text-align: center;
+    }
+
+    .contact-form form {
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+      margin: 0 auto;
+      gap: 1rem;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .contact-form button {
+      background: #f9b233;
+      border: none;
+      padding: 0.75rem;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    footer {
+      background: #000;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="logo.webp" alt="Sulthan's Logo">
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Menu</a>
+      <a href="#">Franchise</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="hero-biryani.jpg" alt="Biryani">
+    <h1>Sulthan's Biryani</h1>
+    <p>Authentic & Signature Dum Biryani From the House of Sulthan’s</p>
+  </section>
+
+  <section class="gallery">
+    <img src="food1.jpg" alt="Food 1">
+    <img src="food2.jpg" alt="Food 2">
+    <img src="food3.jpg" alt="Food 3">
+    <img src="food4.jpg" alt="Food 4">
+    <img src="food5.jpg" alt="Food 5">
+  </section>
+
+  <section class="about">
+    <h2>ABOUT THE BRAND</h2>
+    <p>Sulthan’s Biryani is a premium dine-in restaurant serving the best of authentic and signature dum biryani...</p>
+    <img src="about-interior.jpg" alt="Interior">
+  </section>
+
+  <section class="offerings">
+    <h2>SIGNATURE OFFERINGS</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="sig1.jpg" alt="Biryani Rice">
+        <p>Signature Biryani</p>
+      </div>
+      <div class="card">
+        <img src="sig2.jpg" alt="Andhra Style">
+        <p>Andhra Style Biryani</p>
+      </div>
+      <div class="card">
+        <img src="sig3.jpg" alt="Special Biryani">
+        <p>Special Combo</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="strip">BUSINESS OPPORTUNITIES</div>
+
+  <section class="why-choose">
+    <h2>WHY CHOOSE US</h2>
+    <div class="reasons">
+      <div class="reason">
+        <h3>Franchise Model</h3>
+        <p>Profitable model with brand support.</p>
+      </div>
+      <div class="reason">
+        <h3>Quality Taste</h3>
+        <p>Maintaining food quality and consistency.</p>
+      </div>
+      <div class="reason">
+        <h3>Expansion Plan</h3>
+        <p>Growing rapidly across regions.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="franchise">
+    <h2>Serve The Legacy, Own A Sulthan's Franchise</h2>
+    <p>Fill out the form and become part of our growing family.</p>
+  </section>
+
+  <section class="contact-form">
+    <form>
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="text" placeholder="Phone Number" required>
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sulthan's Biryani. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
